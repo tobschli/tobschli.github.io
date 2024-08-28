@@ -134,6 +134,14 @@ And inputs:
 <label>Age <input type="text" value="30" /></label>
 </form>
 
+And radio buttons:
+
+<form class="grid">
+<label><input name="radio" type="radio" /> Option #1</label>
+<label><input name="radio" type="radio" /> Option #2</label>
+<label><input name="radio" type="radio" /> Option #3</label>
+</form>
+
 ## Grids
 
 Add the `grid` class to a container to divide up the horizontal space evenly for the cells.

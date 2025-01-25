@@ -6,7 +6,6 @@ author-url: "https://wickstrom.tech"
 date: 2024-08-26
 lang: en
 toc-title: Contents
-version: v0.1.2
 ---
 
 ## Introduction

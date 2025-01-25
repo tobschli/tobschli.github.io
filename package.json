@@ -2,7 +2,7 @@
   "name": "@owickstrom/the-monospace-web",
   "version": "0.1.3",
   "description": " A minimalist design exploration",
-  "main": "index.css",
+  "main": "src/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

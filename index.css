@@ -327,6 +327,10 @@ input[type=radio]:checked:before {
   height: calc(var(--line-height) / 2);
   background: var(--text-color);
 }
+input[type=radio],
+input[type=radio]:before {
+  border-radius: 100%;
+}
 
 button:focus, input:focus {
   --border-thickness: 3px;

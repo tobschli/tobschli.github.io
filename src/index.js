@@ -111,10 +111,3 @@ function checkOffsets() {
     }
   }
 }
-
-const debugToggle = document.querySelector(".debug-toggle");
-function onDebugToggle() {
-  document.body.classList.toggle("debug", debugToggle.checked);
-}
-debugToggle.addEventListener("change", onDebugToggle);
-onDebugToggle();

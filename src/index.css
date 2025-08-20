@@ -53,6 +53,7 @@ html {
 body {
   position: relative;
   width: 100%;
+  height: 100vh;
   margin: 0;
   padding: var(--line-height) 2ch;
   max-width: calc(min(80ch, round(down, 100%, 1ch)));

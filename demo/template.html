@@ -27,31 +27,23 @@ $if(math)$
   $math$
 $endif$
 </head>
-<body>
+<body class="debug">
 $for(include-before)$
 $include-before$
 $endfor$
 <table class="header">
   <tr>
-    <td colspan="2" rowspan="2" class="width-auto">
+    <td colspan="2" rowspan="1" class="width-auto">
       <h1 class="title">$title$</h1>
       <span class="subtitle">$subtitle$</span>
     </td>
-    <th>Version</th>
-    <td class="width-min">$version$</td>
   </tr>
+
   <tr>
     <th>Updated</th>
     <td class="width-min"><time style="white-space: pre;">$date$</time></td>
   </tr>
-  <tr>
-    <th class="width-min">Author</th>
-    <td class="width-auto"><a href="$author-url$"><cite>$author$</cite></a></td>
-    <th class="width-min">License</th>
-    <td>MIT</td>
-  </tr>
 </table>
-<label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label>
 $if(abstract)$
 <div class="abstract">
 <div class="abstract-title">$abstract-title$</div>
@@ -70,6 +62,12 @@ $body$
 $for(include-after)$
 $include-after$
 $endfor$
+  <hr>
+  <footer>
+    <h2>
+      Made possible by the awesome <a href="https://github.com/owickstrom/the-monospace-web"><b>Oskar Wickström</b></a>
+    </h2>
+  </footer>
   <div class="debug-grid"></div>
   <script src="src/index.js"></script>
 </body>

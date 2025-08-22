@@ -50,6 +50,7 @@ At this point I do not want to go into much detail about what Anki is and how to
 
 For vocabulary, I tried sticking to the method of the [_Fluent Forever_](https://fluentforeverbook.com/) book.
 This means, for every new vocab, I enter:
+
 - Kanji
 - Reading
 - 2 sample sentences

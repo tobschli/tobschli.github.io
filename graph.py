@@ -19,7 +19,7 @@ res = cur.execute("""SELECT
   date(id / 1000, 'unixepoch') AS creation_date,
   COUNT(*) AS notes_created
 FROM notes
-WHERE id >= strftime('%s', 'now', '-10 days') * 1000
+WHERE id >= strftime('%s', 'now', '-30 days') * 1000
 GROUP BY creation_date
 ORDER BY creation_date ASC;
 

@@ -1,15 +1,9 @@
-# The Monospace Web
+# My personal website
 
-Monospace fonts are dear to many of us. Some find them more readable, consistent, and beautiful, than their proportional alternatives. Maybe we’re just brainwashed from spending years in terminals? Or are we hopelessly nostalgic? I’m not sure. But I like them, and that’s why I started experimenting with all-monospace Web.
+## Credits
 
-https://owickstrom.github.io/the-monospace-web/
-
-## Build
-
-```
-nix develop # or `direnv allow .`
-make
-```
+All credits for the styling of the website go to https://github.com/owickstrom/the-monospace-web
+Check out the repository and the other stuff they are doing!
 
 ## License
 
